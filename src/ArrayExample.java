@@ -32,17 +32,40 @@ public class ArrayExample {
 //            }
 //            System.out.println();
 //        }
-        int [][] arr=new int [][]{
-                {1},
-                {1,2},
-                {1,2,3},
-                {1,2,3,4}
-        };
-        for (int i=0;i<arr.length; i++){
-            for (int j=0;j<arr[i].length;j++){
-                System.out.print(arr[i][j]);
-            }
-            System.out.println();
+//        int [][] arr=new int [][]{
+//                {1},
+//                {1,2},
+//                {1,2,3},
+//                {1,2,3,4}
+//        };
+//        for (int i=0;i<arr.length; i++){
+//            for (int j=0;j<arr[i].length;j++){
+//                System.out.print(arr[i][j]);
+//            }
+//            System.out.println();
+//        }
+
+        int []a= new int[2];
+        int []b = new int[2];
+        System.out.println("enter first array");
+        for (int i=0;i<2;i++){
+            a[i] =sc.nextInt();
+        }
+
+        System.out.println("enter second array");
+        for (int i=0;i<2;i++){
+            b[i]= sc.nextInt();
+        }
+
+        System.out.println("sum is =");
+        int []s= new int[2];
+        for (int i=0;i<2;i++){
+
+            s[i]=a[i]+b[i];
+        }
+
+        for (int x:s){
+            System.out.println(x+" ");
         }
 
 
