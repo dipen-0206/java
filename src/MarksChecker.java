@@ -1,5 +1,5 @@
 import java.util.*;
-public class MarksChecker {
+public class  MarksChecker {
     static void main(){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter marks");

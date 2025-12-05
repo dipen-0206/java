@@ -12,9 +12,9 @@ public class Prime {
                 count++;
         }
         if (count==2)
-            System.out.println("prime");
+            System.out.println("prime number");
         else if (count>2)
-            System.out.println("composite");
+            System.out.println("composite number");
         else
             System.out.println("Neither prime nor composite");
     }
