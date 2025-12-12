@@ -13,6 +13,7 @@ public class HierarchialInheritance {
         BIT b2=new BIT();
         BScCSIT b3=new BScCSIT();
         b1.messages();
+
         b2.messages();
         b3.messages();
     }
