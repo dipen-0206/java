@@ -37,5 +37,6 @@ public class Task {
         });
 
         f1.setVisible(true);
+        f1.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }
